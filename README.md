@@ -16,6 +16,8 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+Whenever you encountered a package error, you went ahead and installed whatever was missing. There were many different packages involved, and for some that didn’t work properly—like the one related to colors—I simply fixed them directly in the code. After that, you also changed the colors to the ones you actually wanted to use instead.
+
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
@@ -34,3 +36,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploy on Netlify
+
+This is the result of my deployment: https://agent-692397df6f9fade712577--capybara-to-do-list.netlify.app/
+
+At first, I thought it would be really easy. But no matter what I tried, the result was always a “Page Not Found” after deployment. I tried everything I could think of—installing packages, tweaking configurations—but nothing worked. Eventually, the build itself started failing.
+
+Then I noticed there was an option to let an AI Agent fix it for me. I decided to give it a try, and surprisingly, it managed to run the site successfully!
