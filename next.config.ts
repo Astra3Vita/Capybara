@@ -31,7 +31,6 @@ const nextConfig: NextConfig = {
     ],
   },
   output: 'export',
-  target: 'serverless', // add this line
 };
 
 export default nextConfig;
