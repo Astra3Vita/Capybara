@@ -1,8 +1,9 @@
-# Source - https://stackoverflow.com/a
-# Posted by omzer, modified by community. See post 'Timeline' for change history
-# Retrieved 2025-11-24, License - CC BY-SA 4.0
-
+[build]
+  command = "npm run build"
+  publish = ".next"
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
