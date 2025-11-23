@@ -111,7 +111,7 @@ const TaskList = ({ tasks, onCompleteTask, onDeleteTask, onUpdateTask }: TaskLis
                                 <AlertDialogHeader>
                                 <AlertDialogTitle>Are you sure?</AlertDialogTitle>
                                 <AlertDialogDescription>
-                                    This action cannot be undone. This will permanently delete your task.
+                                    This will permanently delete your task.
                                 </AlertDialogDescription>
                                 </AlertDialogHeader>
                                 <AlertDialogFooter>
